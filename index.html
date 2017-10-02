@@ -6,17 +6,20 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript">
     $(function(){
-     $("#toggle").on("click",function(){
-       $("#target").fadeToggle("slow");
-        $("p").css("color","red");
+     $("p").css("color","red");
+      $("#toggle").on("click",function(){
+        $("#target").fadeToggle("slow");
+        
        });
       });
-    });
+    $(function(){
+      
      </script>
     </head>
     <body>
+      <p>あかいろ</p>
       <div id="target">(`･ω･´)b</div>
       <button id="toggle">ターミネーター2</button>
-      <p>あかいろ</p>
+     
     </body>
     </html>
